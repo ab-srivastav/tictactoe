@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Hstory = ({history, moveTo, currentMove}) => {
+const History = ({history, moveTo, currentMove}) => {
   return (
     <ul>
       {
@@ -21,4 +21,4 @@ const Hstory = ({history, moveTo, currentMove}) => {
   );
 };
 
-export default Hstory;
+export default History;
